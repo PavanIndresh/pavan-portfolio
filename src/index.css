@@ -1,0 +1,1033 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.9px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Banner1{
+    width: 100%;
+    height: 620px;
+    position: relative;
+    background-color: black;
+}
+.Image1{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.overlay1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.877));
+}
+.overlay2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.288), rgb(0, 0, 0));
+    border-radius: 10px;
+}
+.overlay3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.473), rgb(0, 0, 0));
+    justify-content: center;
+    border-radius: 5px;
+}
+.Header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fixed{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    z-index: 100;
+}
+.container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Banner1Text{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolioImage{
+    object-fit: contain;
+    width: 90%;
+    height: 10%;
+}
+.Header-1{
+    height: 100%;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 27, 27);
+}
+.Header-2{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-right: 10%;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.nav-item{
+    padding-left: 10px;
+    color: white;
+}
+  .nav-item:hover {
+    color: rgb(230, 27, 27);
+  }
+.active{
+    color: rgb(230, 27, 27);
+}
+.Header-3{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 20%;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.container1{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+.insideConBan1{
+    width: 100%;
+    height: 100%;
+}
+.pavan{
+    height: 70%;
+    padding-top: 1%;
+}
+.FullStack{
+    margin: 0px;
+    font-size: 22px;
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: rgb(202, 202, 202);
+}
+.hi{
+    margin-bottom: 0px;
+}
+.pavan1,.pavan2,.pavan3{
+    margin: 0px;
+    font-size: 38px;
+    color: white;
+}
+.pavan2{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(2deg, rgb(230, 27, 27), rgb(44, 11, 167));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.Banner2,.Banner5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.Banner5{
+    background-color: black;
+}
+.Banner2{
+    background-color: #191919;
+}
+.insideConBan2{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Ban2-Con1{
+    width: 40%;
+    height: 600px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.Ban2-Con2{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.Ban5-Con1{
+    width: 47%;
+    height: 600px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.Ban5-Con2{
+    width: 47%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.Image2{
+    object-fit: contain;
+    width: 300px;
+}
+.Image3{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+}
+.Image4{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+}
+.InsideCon-Con2{
+    width: 90%;
+    height: 80%;
+    color: rgba(198, 201, 216, .75);
+}
+.option{
+    width: 100%;
+    height: 47%;
+}
+.option-1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.option-2{
+    width: 100%;
+    height: 85%;
+}
+.About{
+    font-weight: 400;
+    font-style: normal;
+    color: white    ;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Banner3, .Banner4 {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Banner3 {
+    background-color: black;
+}
+
+.Banner4 {
+    background-color: #191919;
+}
+
+.InsideCon-Ban-3{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.Ban3-1{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+}
+.Ban3-2{
+    width: 100%;
+    height: 70%;
+}
+.Awesome{
+    margin: 0px;
+    font-size: 50px;
+    color: white;
+}
+.Variations{
+    margin: 0px;
+    font-size: 18px;
+    color: rgba(198, 201, 216, .75);
+    font-weight:400
+}
+.row-1,.row-2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+    flex-direction: row;
+}
+.Card1{
+    width: 30%;
+    height: 334px;
+    background-color: #191919;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Card2{
+    width: 30%;
+    height: 505px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    transition: all 0.3s;
+    background-color: black;
+}
+.Card2:hover{
+    width: 32%;
+    height: 505px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    transition: 0.5s;
+}
+.overlay3:hover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to bottom, rgba(230, 27, 27, 0.925), rgba(0, 0, 0, 0.856));
+    justify-content: center;
+    border-radius: 5px;
+}
+.Inside-Card2{
+    width: 80%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.Inside-Card{
+    width: 80%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card1-2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card1-3{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: rgba(198, 201, 216, .75);
+    font-size: 14px;
+}
+.card2-2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
+}
+.card2-3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(198, 201, 216, .75);
+    font-size: 18px;
+}
+.card2-4{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button1{
+    width: 125px;
+    height: 45%;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgba(198, 201, 216, .75);
+    color: white;
+    transition: all 0.3s;
+}
+.button1:hover{
+    width: 150px;
+    height: 50%;
+    border-radius: 5px;
+    border: 2px solid rgba(230, 27, 27);
+    color: white;
+    background-color: rgb(230, 27, 27);
+    transition-duration: 0.5s;
+}
+.ban5-1{
+    width: 100%;
+    height: 13%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 700;
+    justify-content: flex-start;
+}
+.ban5-2{
+    width: 100%;
+    height: 17%;
+    color: rgba(198, 201, 216, .75);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.ban5-3{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ban5-4{
+    width: 100%;
+    height: 15%;    
+    display: flex;
+    align-items: center;
+}
+.href{
+    color: white;
+    text-decoration: none;
+}
+.ban53-1, .ban53-2, .ban53-3, .ban53-4{
+    width: 92.5%;
+    max-width: 92.5%;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: black;
+    border: 1px solid rgba(198, 201, 216, .75);
+    color: rgba(198, 201, 216, .75);
+    font-size: 14px;
+}
+.ban53-1, .ban53-2, .ban53-3{
+    height: 12.5%;
+}
+.ban53-4{
+    height: 33%;
+    padding-top: 15px;
+}
+.ban54-1{
+    width: 100%;
+    height: 55%;
+    border-radius: 5px;
+    border: 2.5px solid rgb(230, 27, 27);
+    background-color: rgb(230, 27, 27);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.3s;
+}
+.ban54-1:hover{
+    width: 100%;
+    height: 55%;
+    margin-bottom: 12px;
+    background-color: transparent;
+    border: 2.5px solid rgb(230, 27, 27);
+    color: rgb(230, 27, 27);
+    transition: 0.5s;
+}
+.Image5{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    border-radius: 10px;
+}
+.skill{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skill-1{
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-direction: column;
+}
+.skill1-1{
+    padding: 0px;
+    margin: 0px;
+}
+.skill1-2{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 200;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 810px) {
+    .Header-2{
+        display: none;
+    }
+    .Header-1{
+        height: 90%;
+        width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(230, 27, 27);
+    }
+    .overlay1, .overlay2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.877));
+    }
+    .FullStack{
+    margin: 0px;
+    font-size: 18px;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: rgb(202, 202, 202);
+    }
+    .pavan{
+        height: 70%;
+        padding-top: 1%;
+    }
+    .FullStack{
+        margin: 0px;
+        font-size: 20px;
+        height: 30%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        color: rgb(202, 202, 202);
+    }
+    .pavan1,.pavan2,.pavan3{
+        margin: 0px;
+        font-size: 26px;
+        color: white;
+    }
+    .pavan2{
+        font-family: "Rubik Mono One", monospace;
+        font-weight: 400;
+        font-style: normal;
+        background: linear-gradient(2deg, rgb(230, 27, 27), rgb(44, 11, 167));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .insideConBan2{
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .Ban2-Con1{
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+    }
+    .Ban2-Con2{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .Image3{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: absolute;
+    }
+    .row-1,.row-2{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .Ban3-1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    }
+    .Awesome{
+        margin: 0px;
+        font-size: 35px;
+        color: white;
+    }
+    .Variations{
+        margin: 0px;
+        font-size: 16px;
+        color: rgba(198, 201, 216, .75);
+        font-weight:400
+    }
+    .Card1{
+        width: 100%;
+        height: 260px;
+        background-color: #191919;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .Card2{
+        width: 100%;
+        height: 290px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        position: relative;
+        margin-top: 30px;
+    }
+    .Card2:hover{
+        width: 100%;
+        height: 290px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        position: relative;
+        transition: 0.3s;
+    }
+    .card2-1{
+        height: 0%;
+    }
+    .card2-2{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        font-weight: bold;
+    }
+    .card2-3{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgba(198, 201, 216, .75);
+        font-size: 18px;
+    }
+    .card2-4{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button1{
+        width: 125px;
+        height: 85%;
+        border-radius: 5px;
+        border: none;
+        background-color: transparent;
+        border: 2px solid rgba(198, 201, 216, .75);
+        color: white;
+    }
+    .button1:hover{
+        width: 150px;
+        height: 95%;
+        border-radius: 5px;
+        border: 2px solid rgba(230, 27, 27);
+        color: white;
+        background-color: rgb(230, 27, 27);
+        transition-duration: 0.3s;
+    }
+    .Ban5-Con2{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+    .Ban5-Con1{
+        display: none;
+    }
+    .InsideCon-Con2{
+        width: 100%;
+        height: 80%;
+        color: rgba(198, 201, 216, .75);
+        font-size: 12px;
+    }
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 495px) {
+    .fixed{
+        width: 100%;
+        max-width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: rgb(0, 0, 0);
+        z-index: 100;
+        padding-right: 50px;
+    }
+    .Header{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Header-1{
+        height: 100%;
+        width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(230, 27, 27);
+    }
+    .Header-2{
+        display: none;
+    }
+    .nav-item{
+        padding-left: 10px;
+    }
+      .nav-item:hover {
+        color: rgb(230, 27, 27);
+      }
+    .Header-3{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }  
+    .insideConBan2{
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    } 
+    .InsideCon-Con2{
+        width: 100%;
+        height: 80%;
+        color: rgba(198, 201, 216, .75);
+        font-size: 12px;
+    }
+    .option-1{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        color: white;
+        cursor: pointer;
+        font-size: 11px;
+    }
+    .skill{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .Ban3-1{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        text-align: center;
+        }
+        .Awesome{
+            margin: 0px;
+            font-size: 28px;
+            color: white;
+        }
+        .Variations{
+            margin: 0px;
+            font-size: 14px;
+            color: rgba(198, 201, 216, .75);
+            font-weight:400
+        }
+        .Card1{
+            width: 100%;
+            height: 230px;
+            background-color: #191919;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .Card2{
+            width: 100%;
+            height: 230px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            position: relative;
+            margin-top: 30px;
+        }
+        .Card2:hover{
+            width: 100%;
+            height: 230px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            position: relative;
+            transition: 0.3s;
+        }
+        .card2-2{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            font-weight: bold;
+        }
+        .card2-3{
+            width: 100%;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgba(198, 201, 216, .75);
+            font-size: 14px;
+        }
+        .card2-4{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button1{
+            width: 125px;
+            height: 85%;
+            border-radius: 5px;
+            border: none;
+            background-color: transparent;
+            border: 2px solid rgba(198, 201, 216, .75);
+            color: white;
+        }
+        .button1:hover{
+            width: 150px;
+            height: 95%;
+            border-radius: 5px;
+            border: 2px solid rgba(230, 27, 27);
+            color: white;
+            background-color: rgb(230, 27, 27);
+            transition-duration: 0.3s;
+        }
+        .Ban5-Con2{
+            width: 100%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            flex-direction: column;
+        }
+        .Ban5-Con1{
+            display: none;
+        }
+        .card1-2{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start ;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .card1-3{
+            width: 100%;
+            height: 55%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: rgba(198, 201, 216, .75);
+            font-size: 12px;
+        }
+        .ban5-1{
+            width: 100%;
+            height: 13%;
+            color: white;
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            font-weight: 700;
+            justify-content: flex-start;
+        }
+        .ban5-2{
+            width: 100%;
+            height: 17%;
+            color: rgba(198, 201, 216, .75);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            text-align: center;
+            font-size: 14px;
+            justify-content: center;
+        }
+        .ban5-3{
+            width: 95.5%;
+            height: 55%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-self: flex-start;
+        }
+        .ban5-4{
+            width: 100%;
+            height: 15%;    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ban54-1{
+            color: white;
+            width: 100%;
+        }
+        .ban54-1:hover{
+            width: 100%;
+        }
+}
